@@ -5,7 +5,7 @@
 Name:		nifti
 Summary:	Read and write files in the nifti-1 data format
 Version:	2.0.0
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	Public domain
 Group:		Sciences/Other
 Source0:	http://sourceforge.net/projects/niftilib/files/nifticlib/nifticlib_2_0_0/nifticlib-2.0.0.tar.gz
@@ -50,6 +50,7 @@ brain images.
 %package	-n %{devname}
 Summary:	Read and write files in the nifti-1 data format
 Group:		Development/C
+Requires:	%{libname} = %{version}-%{release}
 Provides:	%{name}-devel = %{version}-%{release}
 Provides:	lib%{name}-devel = %{version}-%{release}
 
