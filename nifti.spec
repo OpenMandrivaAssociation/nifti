@@ -12,6 +12,7 @@ Source0:	http://sourceforge.net/projects/niftilib/files/nifticlib/nifticlib_2_0_
 Url:		http://niftilib.sourceforge.net
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
+BuildRequires:	cmake
 BuildRequires:	itk-devel
 BuildRequires:	zlib-devel
 
