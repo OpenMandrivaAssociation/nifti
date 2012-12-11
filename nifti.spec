@@ -84,3 +84,15 @@ brain images.
 
 %clean
 rm -rf %{buildroot}
+
+
+%changelog
+* Tue Aug 17 2010 Paulo Andrade <pcpa@mandriva.com.br> 2.0.0-2mdv2011.0
++ Revision: 570686
++ rebuild (emptylog)
+
+* Mon Aug 16 2010 Paulo Andrade <pcpa@mandriva.com.br> 2.0.0-1mdv2011.0
++ Revision: 570626
+- Import nifti version 2.0.0.
+- nifti
+
