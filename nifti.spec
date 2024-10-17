@@ -9,7 +9,7 @@ Release:	3
 License:	Public domain
 Group:		Sciences/Other
 Source0:	http://sourceforge.net/projects/niftilib/files/nifticlib/nifticlib_2_0_0/nifticlib-2.0.0.tar.gz
-Url:		http://niftilib.sourceforge.net
+Url:		https://niftilib.sourceforge.net
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 BuildRequires:	cmake
